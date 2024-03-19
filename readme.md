@@ -7,7 +7,6 @@ This project aims to automate the test scenario described in Gherkin for the suc
 ## Dependencies
 
 - Node.js 18+
-- Playwright
 
 ## Installation
 
