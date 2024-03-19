@@ -18,7 +18,6 @@ This project aims to automate the test scenario described in Gherkin for the suc
     npm install
 ```
 
-
 ## Running Tests
 
 To execute automated tests, use the following command:
@@ -27,7 +26,6 @@ To execute automated tests, use the following command:
     npx playwright test
 ```
 Tests are run in headless mode meaning no browser will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
-
 
 ## Examples of Commands
 
@@ -64,7 +62,7 @@ Given that the user is on the registration page
 When the user enters a date of birth
 Then the selected date corresponds to the value displayed in the desired field
 ```
-Como utilizador do sistema, quero saber de forma visual quando estou fazendo meu registro de forma errada. Cada campo obrigatório deve conter uma mensagem informando seu requisito
+As a system user, I want to visually know when I'm registering incorrectly. Each required field should display a message indicating its requirement.
 
 ```
 Feature: Registration Validation
